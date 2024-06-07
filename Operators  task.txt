@@ -1,0 +1,106 @@
+Operators :
+
+1.Arithmetic Operators :
+  
+Program :
+
+class AssignmentOperator {
+    public static void main(String[] args) {
+        int a=20;
+        int b=30;
+        
+       System.out.println(a+=b);
+       System.out.println(a-=b);
+       System.out.println(a*=b);
+       System.out.println(a/=b);
+       System.out.println(a%=b);
+       System.out.println(a=b);
+
+    }
+}
+
+
+2.Assignment Operators
+
+Program :
+
+public class AssignmentOperators {
+    public static void main(String[] args) {
+        int A = 15, B = 20;
+        A += B;
+        A -= B;
+        A *= B;
+        A /= B;
+        A %= B;
+        System.out.println("Result: " + A);
+    }
+}
+
+
+3.Relational Operators
+
+Program :
+
+public class RelationalOperators {
+    public static void main(String[] args) {
+        int a = 20, b = 10;
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a >= b);
+        System.out.println(a <= b);
+        System.out.println(a == b);
+        System.out.println(a != b);
+    }
+}
+
+
+
+4.Logical Operators
+
+Program :
+
+public class LogicalOperations {
+    public static void main(String[] args) {
+        int a = 10;
+        int b =15;
+        int c = 20;
+    System.out.println(a>b&&b>c);
+    System.out.println(a>b||b>c);
+       }
+}
+
+
+5.Unary Operators
+
+Program :
+
+public class UnaryOperators {
+    public static void main(String[] args) {
+        int A = 10;
+        System.out.println("Original value: " +A);
+        A++; 
+        System.out.println("After increment: " + A);
+        A--; 
+        System.out.println("After decrement: " + A);
+        System.out.println("Unary minus: " + (-A));
+        System.out.println("Unary plus: " + (+A));
+    }
+}
+
+
+6.Bitwise operators
+
+Program :
+
+public class BitwiseOperators {
+    public static void main(String[] args) {
+        int X = 4, Y = 8;
+        System.out.println("AND: " + (X & Y));
+        System.out.println("OR: " + (X | Y));
+        System.out.println("XOR: " + (X ^ Y));
+        System.out.println("NOT: " + (~X));
+        System.out.println("Left shift: " + (X << 1));
+        System.out.println("Right shift: " + (Y >> 1));
+    }
+}
+
